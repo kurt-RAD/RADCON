@@ -1,0 +1,7 @@
+# Old Wix URLs -> new pages (301s preserve SEO equity)
+/general-modifications      /modifications                301
+/training-structures        /fire-training                301
+/inquiry-services-page      /about                        301
+/post/how-fire-departments-pay-for-training-structures-the-afg-grant-guide   /afg-grant-guide   301
+/post/what-a-container-home-really-costs-in-indiana-2026-guide               /container-home-cost-indiana   301
+/post/*                     /blog                         301
