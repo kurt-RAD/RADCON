@@ -174,3 +174,10 @@ footer a:hover{color:#fff}
 .sam-strip h5 span{color:var(--red)}
 .sam-strip p{color:var(--gray);font-size:14px;line-height:1.55;margin:0;max-width:780px}
 @media(max-width:640px){.sam-strip{flex-direction:column;text-align:center;gap:14px;padding:22px 18px}}
+
+/* ===== modifications gallery ===== */
+.mod-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:44px}
+.mod-gallery figure{margin:0;background:#12151a;border:1px solid #23272c}
+.mod-gallery img{width:100%;height:300px;object-fit:cover;display:block}
+.mod-gallery figcaption{padding:14px 16px;font-size:14px;color:var(--gray);line-height:1.5}
+@media(max-width:900px){.mod-gallery{grid-template-columns:1fr}}
